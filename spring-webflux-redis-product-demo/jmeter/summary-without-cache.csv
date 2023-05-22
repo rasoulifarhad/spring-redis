@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+View,720000,19,0,30,1.77,0.000%,9297.76079,1321.80,1224.80,145.6
+Update/Put,80000,21,0,58,17.29,0.000%,934.40478,34.68,201.46,38.0
+TOTAL,800000,19,0,58,5.76,0.000%,9342.19285,1229.98,1309.02,134.8

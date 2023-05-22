@@ -59,7 +59,18 @@ Then get product
 curl -s -X GET localhost:8080/api/products/2222222 -H 'Content-Type: application/json'| jq '.'
 ```
 
- 
+<!--
+{
+	"name": "${__RandomString(20, abcdefghijklmnopqrstuvwxyz)}"
+}
+
+Take a look at JMeter Functions like:
+__Random() - which generates a random number in the given range
+__RandomString() - which generates a random string from the given input
+__threadNum() - which returns the current thread number
+__UUID() - which returns an unique GUID structure
+__time() - which returns current time stamp in different formats any combination of above
+--> 
 
 
 
