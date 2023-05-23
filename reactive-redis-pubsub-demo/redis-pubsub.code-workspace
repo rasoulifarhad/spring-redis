@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "redis-publisher-joke",
+			"path": "redis-publisher-joke"
+		},
+		{
+			"name": "redis-subscriber-joke",
+			"path": "redis-subscriber-joke"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.dependency.packagePresentation": "hierarchical"
+	}
+}
